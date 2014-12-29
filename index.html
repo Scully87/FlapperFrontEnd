@@ -6,7 +6,7 @@
 	</head>
 	<body ng-app="flapperNews" ng-controller="MainCtrl">
 		<section ng-repeat="post in posts">
-			{{post}}
+			{{post.title}} - upvotes: {{post.upvotes}}
 		</section>
 	</body>
 </html>
