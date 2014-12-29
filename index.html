@@ -5,8 +5,8 @@
 		<script src="app.js"></script>
 	</head>
 	<body ng-app="flapperNews" ng-controller="MainCtrl">
-		<section>
-			{{test}}
+		<section ng-repeat="post in posts">
+			{{post}}
 		</section>
 	</body>
 </html>
