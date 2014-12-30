@@ -19,10 +19,6 @@
 		<header class="page-header">
 			<h1>Flapper News</h1>
 		</header>
-		
-		<span>
-  		<a href="#/posts/{{$index}}">Comments</a>
-		</span>
 
 		<article ng-repeat="post in posts | orderBy: '-upvotes'">
 			<span class="glyphicon glyphicon-thumbs-up" 
@@ -34,7 +30,10 @@
 				</a>
 				<span ng-hide="post.link">
 					{{post.title}}
-				</span>
+				</span>	
+					<span>
+			  		<a href="#/posts/{{$index}}">Comments</a>
+					</span>
 			</span>
 		</article>
 
@@ -71,6 +70,20 @@
 	      {{comment.body}}
 	    </span>
 	  </section>
+
+
+  <form ng-submit="addComment()"
+    style="margin-top:30px;">
+    <h3>Add a new comment</h3>
+
+    <div class="form-group">
+      <input type="text"
+      class="form-control"
+      placeholder="Comment"
+      ng-model="body"></input>
+    </div>
+    <button type="submit" class="btn btn-primary">Post</button>
+  </form>
 	</script>
 </body>
 </html>
