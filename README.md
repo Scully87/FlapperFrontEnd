@@ -16,23 +16,25 @@ FlapperNews
 	- NodeJS
 
 #####How to use (Assuming you have [NodeJS](http://nodejs.org) and [MongoDB](http://mongodb.org) installed locally) :
+------------------------------------
 	
+	Clone the repository:
 	```shell
 	  $ git clone https://github.com/Scully87/FlapperBackEnd.git
 	```
-
+	Change into the directory:
 	```shell
     $ cd FlapperBackEnd
   ```
-
+  Install the dependencies:
   ```shell
   	$ npm install
   ```
-  
+  Run the Server:
   ```shell
   	$ npm start
   ```
-
+  View the app:
   ```
   	Open browser on localhost
   ```
