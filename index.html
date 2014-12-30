@@ -2,6 +2,7 @@
 <head>
 	<title>My Angular App!</title>
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="styelsheet">
+	<link rel="stylesheet" href="application.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
 	<script src="app.js"></script>
 	<style> .glyphicon-thumbs-up { cursor:pointer } </style>
@@ -18,11 +19,13 @@
 				<span class="glyphicon glyphicon-thumbs-up" 
 					ng-click="incrementUpvotes(post)"></span>
 				{{post.upvotes}}
-				<a ng-show="post.link" href="{{post.link}}">
-					{{post.title}}
-				</a>
-				<span ng-hide="post.link">
-					{{post.title}}
+				<span class="post-title">
+					<a ng-show="post.link" href="{{post.link}}">
+						{{post.title}}
+					</a>
+					<span ng-hide="post.link">
+						{{post.title}}
+					</span>
 				</span>
 			</section>
 
