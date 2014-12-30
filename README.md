@@ -15,7 +15,7 @@ FlapperNews
 	- AngularJS
 	- NodeJS
 
-#####How to use: (Assuming you have [NodeJS](http://nodejs.org) and [MongoDB](http://mongodb.org))
+#####How to use (Assuming you have [NodeJS](http://nodejs.org) and [MongoDB](http://mongodb.org) installed locally) :
 	
 	```shell
 	  $ git clone https://github.com/Scully87/FlapperBackEnd.git
@@ -28,9 +28,9 @@ FlapperNews
   ```shell
   	$ npm install
   ```
-
+  
   ```shell
-  	$npm start
+  	$ npm start
   ```
 
   ```
