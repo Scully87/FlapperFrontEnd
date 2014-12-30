@@ -1,4 +1,4 @@
-angular.module('flapperNews', [])
+angular.module('flapperNews', ['ui.router'])
 .factory('posts', [function(){
 	var o = {
 		posts: []
@@ -10,7 +10,7 @@ angular.module('flapperNews', [])
 	'posts',
 	function($scope, posts){
 		$scope.posts = posts.posts;
-		
+
 		$scope.addPost = function() {
 			if(!$scope.title || $scope.title === '') { return; } 
 			$scope.posts.push({
