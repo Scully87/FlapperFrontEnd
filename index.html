@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>My Angular App!</title>
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="styelsheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" >
 	<link rel="stylesheet" href="application.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
 	<script src="app.js"></script>
@@ -31,12 +31,16 @@
 
 			<form ng-submit="addPost()" class="add-post">
 				<h3>Add a new post</h3>
-				<input type="text" placeholder="Title" ng-model="title"></input>
-				<br>
-				<input type="text" placeholder="Link" ng-model="link"></input>
-				<br>
-				<button type="submit">Post</button>
+
+				<section class="form-group">
+					<input type="text" class="form-control" placeholder="Title" ng-model="title"></input>
+				</section>
+				<section class="form-group">
+					<input type="text" class="form-control" placeholder="Link" ng-model="link"></input>
+				</section>
+				<button type="submit" class="btn btn-primary">Post</button>
 			</form>
+
 		</section>
 	</section>
 </body>
