@@ -63,7 +63,7 @@ angular.module('flapperNews', ['ui.router'])
 		'$stateParams',
 		'posts',
 		function($scope, $stateParams, posts){
-			$scope.posts = posts.posts;
+			$scope.posts = posts.posts[$stateParams.id];
 	}]);
 
 }]);
