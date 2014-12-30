@@ -19,22 +19,26 @@ FlapperNews
 ----------
 Clone the repository:
 ```shell
-$ git clone git@github.com:scully87/fizzbuzz.git
+$ git clone https://github.com/Scully87/FlapperBackEnd.git
 ```
 
 Change into the directory:
 ```shell
-$ cd fizzbuzz
+$ cd FlapperBackEnd
 ```
 
-To run tests:
+Install the dependencies:
 ```shell
-$ rspec
+$ npm install
 ```
 
-Play in irb:
+Run the server:
 ```shell
-$ irb
- > require './lib/fizzbuzz.rb'
+$ npm start
+```
+
+View the App:
+```shell
+open browser on localhost
 ```
 --------------------------------------------------
