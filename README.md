@@ -2,7 +2,7 @@ FlapperNews
 =====================
 ###Created a News Clone using the MEAN STACK
 
-##### The final working of the full stack can be found here [FlapperBrontEnd](http://github.com/scully87/FlapperBackEnd). This repository is for the first workings of the front-end using angular and html
+##### The final working of the full stack can be found here [FlapperBackEnd](http://github.com/scully87/FlapperBackEnd). This repository is for the first workings of the front-end using angular and html
 
 ![FlapperNewsHome](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/6m5WHhmhpYAjvJR/FlapperNewsNewHome.png)![FlapperNewsComment](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/hJD0NzsRQ56hiMU/FlapperNewsNewComment.png)
 ![FlapperNewsComments](https://s3.amazonaws.com/uploads.hipchat.com/119067/1211609/t5SWlvKjVksXcZT/FlapperNewsNewComments.png)
@@ -16,30 +16,4 @@ FlapperNews
 	- AngularJS
 	- NodeJS
 
-#####How to use (Assuming you have [NodeJS](http://nodejs.org) and [MongoDB](http://mongodb.org) installed locally) :
-----------
-Clone the repository:
-```shell
-$ git clone https://github.com/Scully87/FlapperBackEnd.git
-```
-
-Change into the directory:
-```shell
-$ cd FlapperBackEnd
-```
-
-Install the dependencies:
-```shell
-$ npm install
-```
-
-Run the server:
-```shell
-$ npm start
-```
-
-View the App:
-```shell
-open browser on localhost
-```
---------------------------------------------------
+#####To Use This App please click the link at the top of the read me to the final working version
